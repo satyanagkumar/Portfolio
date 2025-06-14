@@ -21,7 +21,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [load, upadateLoad] = useState(true);
-
+ 
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
