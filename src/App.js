@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import Education from "./components/Education/Education";
 import ContactSection from "./components/contactsection";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Navigate
@@ -49,5 +49,7 @@ function App() {
     </Router>
   );
 }
+
+
 
 export default App;
