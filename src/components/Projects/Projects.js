@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import expimage1 from "../../Assets/Projects/expimage1.jpg";
+import expimage2 from "../../Assets/Projects/expimg2.jpg";
+import expimage3 from "../../Assets/Projects/expimg3.jpg";
+import expimage4 from "../../Assets/Projects/expimg4.jpg";
+import expimage5 from "../../Assets/Projects/expimg5.jpg";
 
 function Projects() {
   return (
@@ -23,50 +22,49 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={expimage1}
               isBlog={false}
-              title="Abc Full stack Developer"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis est quis purus sodales efficitur. Vestibulum quis nulla congue."
+              title="AIDENAI"
+              description="Senior Full Stack Developer"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={expimage2}
               isBlog={false}
-              title="Abc Full stack Developer"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis est quis purus sodales efficitur. Vestibulum quis nulla congue."
+              title="Freddie Mac"
+              description="Full Stack Developer"
               
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={expimage3}
               isBlog={false}
-              title="Abc Full stack Developer"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis est quis purus sodales efficitur. Vestibulum quis nulla congue"
+              title="Arvest Bank"
+              description="Full Stack Developer"
                           
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={expimage4}
               isBlog={false}
-              title="Abc Full stack Developer"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis est quis purus sodales efficitur. Vestibulum quis nulla congue"
+              title="Office Depot"
+              description= "Full Stack Developer"
               
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={expimage5}
               isBlog={false}
-              title="Abc Full stack Developer"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis est quis purus sodales efficitur. Vestibulum quis nulla congue."
-              
+              title="Zivame"
+              description="Java Developer Intern"
             />
           </Col>
         </Row>
